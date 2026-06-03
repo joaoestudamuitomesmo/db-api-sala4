@@ -43,7 +43,10 @@ function App() {
                   nome={item.name}
                   especie={item.race}
                   ki={item.ki}
+                  maxki={item.maxKi}
                   imagem={item.image}
+                  gender={item.gender}
+                  affiliation={item.affiliation}
                 />
               </div>
             );
